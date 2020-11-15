@@ -5,6 +5,6 @@ public class ClassA {
         System.out.println("Hello world");
 
         ClassB classB = new ClassB();
-        classB.sayHi();
+        classB.sayHi("Andrei");
     }
 }
