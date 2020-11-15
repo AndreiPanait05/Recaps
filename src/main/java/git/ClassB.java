@@ -1,7 +1,7 @@
 package git;
 
 public class ClassB {
-    public void f() {
+    public void sayHi() {
         System.out.println("Hello");
     }
 }
