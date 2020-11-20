@@ -9,7 +9,8 @@ public class ClassA {
         System.out.println("Hi Andrei!");
 
         ClassC classC = new ClassC();
-        classC.getName();
+        classC.getName("Andrei");
+
 
     }
 }

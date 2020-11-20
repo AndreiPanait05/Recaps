@@ -1,7 +1,10 @@
 package git;
 
+
+
 public class ClassC {
-    public String getName() {
-        return "Andrei";
+
+    public String getName(String name) {
+        return name;
     }
 }
