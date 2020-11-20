@@ -7,5 +7,9 @@ public class ClassA {
         ClassB classB = new ClassB();
         classB.sayHi("Andrei");
         System.out.println("Hi Andrei!");
+
+        ClassC classC = new ClassC();
+        classC.getName();
+
     }
 }
