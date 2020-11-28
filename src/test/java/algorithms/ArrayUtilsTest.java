@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayUtilsTest {
     @Test
-    public void givenArrayIsPalindromShouldBeTrue() {
+    public void givenArrayIsPalindromeShouldBeTrue() {
         int[] a = {1,2,2,1};
         int[] b = {1,2,3,2,1};
-        Assertions.assertTrue(ArrayUtils.isPalindrome(a));
-        Assertions.assertTrue(ArrayUtils.isPalindrome(b));
+        Assertions.assertTrue(ArrayUtils.isPalindrome(a, a.length));
+        Assertions.assertTrue(ArrayUtils.isPalindrome(b, b.length));
     }
 
 }
