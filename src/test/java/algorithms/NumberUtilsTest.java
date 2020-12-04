@@ -27,6 +27,10 @@ class NumberUtilsTest {
         int number = 1221;
         assertTrue(NumberUtils.isPalindromeNumber(1221));
     }
+    @Test
+    public void givenNumberToCheckIsPrimeShouldReturnPrimeNumber() {
+        assertTrue(NumberUtils.isAPrimeNumber(19));
+    }
 
 
 }

@@ -2,6 +2,7 @@ package algorithms;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class StringUtils {
     public static boolean preCircularPermuted(String s1, String s2) {
@@ -25,5 +26,18 @@ public class StringUtils {
         Arrays.sort(a2);
         return Arrays.equals(a1, a2);
     }
-
+    // Scrieti un program care determina numarul de vocale dintr-un string ( => array de caractere). (String-ul dat ca parametru)
+    // Ex: “afara ploua” => 6 vocale (a, a, a, o, u, a)
+    public static boolean numberOfVowelsFromAString() {
+        int count = 0;
+        String s1 = "afara ploua";
+        for(int i = 0; i < s1.length(); i++) {
+            char ch = s1.charAt(i);
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count++;
+                return true;
+            }
+        }
+        return false;
+    }
 }

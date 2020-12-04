@@ -49,5 +49,16 @@ public class NumberUtils {
         System.out.println("b = " + b);
     }
     // Scrieti un program care verifica daca un numar e prim. (nr dat ca parametru)
-
+    public static boolean isAPrimeNumber(int i) {
+        int num = 0;
+        int temp;
+        boolean isPrime = true;
+        for(i = 2; i < num / 2; i++) {
+            temp = num%i;
+            if(temp == 0) {
+                isPrime = false;
+            }
+        }
+        return isPrime;
+    }
 }
