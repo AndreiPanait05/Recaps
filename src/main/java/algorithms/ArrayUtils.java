@@ -62,6 +62,8 @@ public class ArrayUtils {
                 }
             }
         }
+        // Scrieti un program care inverseaza elementele intr-un array print-o singura parcurgere fara a folosi un array aditional
+
     }
 
 
